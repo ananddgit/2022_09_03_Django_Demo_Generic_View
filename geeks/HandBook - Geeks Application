@@ -1,0 +1,15 @@
+____________________ Geeks Application ____________________
+
+ - Create Application
+     python manage.py startapp geeks
+
+ - Add application in INSTALLED_APPS
+    INSTALLED_APPS = [
+			'geeks',
+		]
+
+- Creating a geeks model
+
+- Create a file forms.py in geeks folder
+
+-
