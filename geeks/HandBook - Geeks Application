@@ -1,15 +1,26 @@
 ____________________ Geeks Application ____________________
+    - Create Application
+        python manage.py startapp geeks
 
- - Create Application
-     python manage.py startapp geeks
+    - Add application in INSTALLED_APPS
+        INSTALLED_APPS = [
+		    	'geeks',
+		    ]
 
- - Add application in INSTALLED_APPS
-    INSTALLED_APPS = [
-			'geeks',
-		]
+    - Creating a geeks model
 
-- Creating a geeks model
+    - Register the model with admin.site.register()
 
-- Create a file forms.py in geeks folder
+    - Class Based Views
+        - Automatically setup everything
+        - Specify which model to create ListView
+        - Automatically try to find a template in app_name/modelname_list.html
+        - geeks/templates/geeks/geeksmodel_list.html
 
--
+        - Note : application -> templates -> application -> ........._list.html
+
+    - Create our class based view
+
+    - Create a url path to map the view
+
+    -
